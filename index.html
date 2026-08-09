@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Albert Waterman CS499 Portfolio</title>
+
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightgray;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .page {
+      max-width: 950px;
+      margin: auto;
+      background-color: white;
+      padding: 30px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    h2 {
+      color: darkblue;
+      border-bottom: 1px solid gray;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      color: #444;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    a {
+      color: blue;
+    }
+
+    .enhancement {
+      background-color: #f2f2f2;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    details {
+      margin-top: 15px;
+      background-color: white;
+      padding: 10px;
+      border: 1px solid lightgray;
+    }
+
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      border-top: 1px solid gray;
+      padding-top: 10px;
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+
+  <h1>Albert Waterman</h1>
+
+  <p>CS 499 Computer Science ePortfolio</p>
+
+
+  <h2>Professional Self-Assessment</h2>
+
+  <p>
+    Throughout the Computer Science program at Southern New Hampshire University,
+    I have developed a much stronger understanding of software development and
+    how different areas of computer science work together. When I first started,
+    I was mostly focused on making sure my code worked. As I progressed through
+    the program, I started thinking more about code organization, testing,
+    security, databases, algorithms, and how software can be improved over time.
+  </p>
+
+  <p>
+    My professional experience has also helped shape how I approach computer
+    science. I currently work with clinical diagnostic equipment and regularly
+    troubleshoot technical systems, communicate with customers, and work through
+    problems that can affect laboratory operations. That experience has taught
+    me the importance of communication, teamwork, documentation, and solving
+    problems in a way that actually helps the people using the system.
+  </p>
+
+  <p>
+    One of the biggest areas of growth for me has been learning how to choose
+    the right tools for a problem. Through my coursework, I gained experience
+    with Python, Java, databases, software engineering, testing, networking,
+    security, algorithms, and data structures.
+  </p>
+
+  <p>
+    Security and database development were also important parts of my growth.
+    During my dashboard enhancements, I removed hard-coded database information,
+    used environment variables, added input validation, improved error handling,
+    and added MongoDB validation, indexes, aggregation, and record management.
+  </p>
+
+  <p>
+    The three enhancements in this ePortfolio show my growth in software design
+    and engineering, algorithms and data structures, and databases. Together,
+    they show my ability to take an existing project, identify areas that can
+    be improved, and build a stronger solution.
+  </p>
+
+
+  <h2>Code Review</h2>
+
+  <p>
+    Before completing my enhancements, I reviewed my original projects and
+    explained what they did, what needed improvement, and what I planned to change.
+  </p>
+
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/-0TocoihMco"
+    title="CS 499 Code Review"
+    allowfullscreen>
+  </iframe>
+
+  <p>
+    <a href="https://www.youtube.com/watch?v=-0TocoihMco" target="_blank">
+      Watch Code Review on YouTube
+    </a>
+  </p>
+
+
+  <h2>Artifact Enhancements</h2>
+
+
+  <div class="enhancement">
+
+    <h3>Enhancement One: Software Design and Engineering</h3>
+
+    <p><b>CS 340 Animal Shelter Dashboard</b></p>
+
+    <p>
+      For my first enhancement, I improved my CS 340 Animal Shelter Dashboard.
+      I separated the application into a dashboard, service layer, and repository
+      layer. I also improved the filtering, chart, map, error handling, and CSV
+      export features.
+    </p>
+
+    <p>
+      <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/CS499enhancement1"
+         target="_blank">
+        View Enhancement One Code
+      </a>
+    </p>
+
+    <details>
+
+      <summary>Read Enhancement One Narrative</summary>
+
+      <p>
+        The artifact I selected is CS 340 Animal Shelter Dashboard. Originally I
+        used Python, Dash, MongoDB, Pandas, Plotly, and Dash Leaflet. The dashboard
+        uses animal shelter data from the Austin Animal Center and helps the user
+        search for animals that could possibly be trained for different types of
+        rescue work.
+      </p>
+
+      <p>
+        The original application worked, but almost everything was placed inside
+        the same Jupyter Notebook. For my enhancement, I separated the project
+        into three main parts. The dashboard handles what the user sees and clicks.
+        The service layer handles the rescue filters and prepares the data. The
+        repository layer handles the MongoDB connection and database operations.
+      </p>
+
+      <p>
+        I also improved the dashboard by adding a record count, replacing the pie
+        chart with a bar chart, improving the map, adding CSV exporting, and
+        removing hard-coded MongoDB credentials.
+      </p>
+
+      <p>
+        This enhancement helped me understand how software can be easier to
+        maintain when different responsibilities are separated instead of putting
+        everything in one file.
+      </p>
+
+    </details>
+
+  </div>
+
+
+  <div class="enhancement">
+
+    <h3>Enhancement Two: Algorithms and Data Structures</h3>
+
+    <p><b>CS 320 Task Scheduler</b></p>
+
+    <p>
+      For my second enhancement, I improved my CS 320 Task Service project by
+      adding priorities, due dates, task dependencies, a dependency graph,
+      PriorityQueue, topological sorting, and cycle detection.
+    </p>
+
+    <p>
+      <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/Enhancement%202"
+         target="_blank">
+        View Enhancement Two Code
+      </a>
+    </p>
+
+    <details>
+
+      <summary>Read Enhancement Two Narrative</summary>
+
+      <p>
+        The artifact I selected for the algorithms and data structures category
+        is my Task Service project from CS 320. The original project used Java,
+        JUnit testing, and a HashMap to store tasks.
+      </p>
+
+      <p>
+        I improved the project by adding task priorities, due dates, a dependency
+        graph, a PriorityQueue, topological sorting, and cycle detection.
+      </p>
+
+      <p>
+        One of the main things I learned was that priority alone does not create
+        a valid schedule. A task may be important, but it cannot be scheduled if
+        another task has to be completed first.
+      </p>
+
+      <p>
+        I also added more JUnit tests for priorities, due dates, dependencies,
+        cycle detection, and deleting dependency references. All 39 tests passed
+        with zero errors and zero failures.
+      </p>
+
+    </details>
+
+  </div>
+
+
+  <div class="enhancement">
+
+    <h3>Enhancement Three: Databases</h3>
+
+    <p><b>CS 340 Animal Shelter Dashboard</b></p>
+
+    <p>
+      For my third enhancement, I continued improving my CS 340 Animal Shelter
+      Dashboard by adding more advanced MongoDB features.
+    </p>
+
+    <p>
+      <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/Enhancement%203"
+         target="_blank">
+        View Enhancement Three Code
+      </a>
+    </p>
+
+    <details>
+
+      <summary>Read Enhancement Three Narrative</summary>
+
+      <p>
+        For my database enhancement, I used my CS 340 Animal Shelter Dashboard.
+        The original application already used Python, Dash, and MongoDB.
+      </p>
+
+      <p>
+        I added the ability to create, update, and delete animal records directly
+        from the dashboard. I also added input validation, MongoDB schema
+        validation, indexes, aggregation pipelines, and improved error handling.
+      </p>
+
+      <p>
+        I also removed MongoDB connection information from the main source code
+        and moved it into an environment file.
+      </p>
+
+      <p>
+        This enhancement helped me understand how the dashboard, service layer,
+        repository layer, and MongoDB database all work together as one application.
+      </p>
+
+    </details>
+
+  </div>
+
+
+  <h2>Skills</h2>
+
+  <p>
+    Python, Java, MongoDB, Dash, JUnit, Software Engineering, Databases,
+    Algorithms, Data Structures, Testing, Security, and GitHub.
+  </p>
+
+
+  <h2>GitHub Repository</h2>
+
+  <p>
+    <a href="https://github.com/aj35waterman/CS499-Capstone" target="_blank">
+      View My CS 499 GitHub Repository
+    </a>
+  </p>
+
+
+  <footer>
+    <p>Albert Waterman - CS 499 Computer Science ePortfolio</p>
+  </footer>
+
+
+</div>
+
+</body>
+
+</html>
