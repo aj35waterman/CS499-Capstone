@@ -1,136 +1,1015 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <title>Albert Waterman CS499 Portfolio</title>
+
+    <style>
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #e9eef3;
+        color: #222;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 30px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+      }
+
+      h1 {
+        color: #1f3a5f;
+        border-bottom: 3px solid #1f3a5f;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        color: #1f3a5f;
+        margin-top: 35px;
+      }
+
+      h3 {
+        color: #2f5d7c;
+      }
+
+      h4 {
+        color: #1f3a5f;
+      }
+
+      p {
+        line-height: 1.7;
+      }
+
+      a {
+        color: #1f5fa8;
+        font-weight: bold;
+      }
+
+      a:hover {
+        color: #0f3d70;
+      }
+
+      iframe {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+
+      .artifact {
+        background-color: #f7f9fb;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        border-radius: 8px;
+        border-left: 5px solid #1f3a5f;
+      }
+
+      details {
+        margin-top: 20px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 6px;
+        border: 1px solid #d6dce2;
+      }
+
+      summary {
+        cursor: pointer;
+        font-weight: bold;
+        color: #1f3a5f;
+        font-size: 18px;
+      }
+
+      .narrative {
+        margin-top: 20px;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+        color: #555;
+      }
+
+    </style>
+
   </head>
+
+
   <body>
-    <h1>Albert Waterman</h1>
-    <h2>About My Portfolio</h2>
-    <p>
-      This portfolio shows the work I completed during CS 499 and demonstrates
-      the skills I developed throughout the Computer Science program at
-      Southern New Hampshire University.
-    </p>
-    <p>
-      My enhancements focus on software design and engineering, algorithms
-      and data structures, databases, testing, and security.
-    </p>
-    <h2>Code Review</h2>
-    <p>
-      Before completing my enhancements, I reviewed my original projects
-      and explained the changes I planned to make.
-    </p>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/-0TocoihMco"
-      title="CS 499 Code Review"
-      allowfullscreen>
-    </iframe>
 
-    <p>
-      <a href="https://www.youtube.com/watch?v=-0TocoihMco" target="_blank">
-        Watch Code Review on YouTube
-      </a>
-    </p>
-    <p> CS 499 Portfolio</p>
-    <h2>Artifacts</h2>
-    <h3>Enhancement One: Software Design and Engineering</h3>
-
-    <p>CS 340 Animal Shelter Dashboard</p>
-
-    <p>
-      For my first enhancement, I improved my CS 340 Animal Shelter Dashboard.
-      The project uses Python, Dash, MongoDB, Pandas, Plotly, and Dash Leaflet.
-    </p>
-
-    <p>
-      I improved the organization of the application by separating the
-      dashboard, service layer, and repository layer. I also improved the
-      filtering, chart, map, error handling, and CSV export features.
-    </p>
-
-    <p>
-      <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/CS499enhancement1" target="_blank">
-        View Enhancement One
-      </a>
-    </p>
-    <h3>Enhancement Two: Algorithms and Data Structures</h3>
-
-    <p>CS 320 Task Scheduler</p>
-
-    <p>
-      For my second enhancement, I improved my CS 320 Task Service project.
-      The original project used Java, JUnit testing, and a HashMap to manage tasks.
-    </p>
-
-    <p>
-      I added priorities, due dates, task dependencies, a dependency graph,
-      a PriorityQueue, topological sorting, and cycle detection.
-    </p>
-
-    <p>
-      I also added additional JUnit tests to make sure the new scheduling
-      features worked correctly.
-    </p>
-
-    <p>
-      <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/Enhancement%202" target="_blank">
-        View Enhancement Two
-      </a>
-    </p>
-    <h3>Enhancement Three: Databases</h3>
-
-    <p>CS 340 Animal Shelter Dashboard</p>
-
-    <p>
-      For my third enhancement, I continued improving my CS 340 Animal
-      Shelter Dashboard by adding more advanced MongoDB features.
-    </p>
-
-    <p>
-      I added the ability to create, update, and delete animal records
-      directly from the dashboard.
-    </p>
-
-    <p>
-      I also added input validation, MongoDB schema validation, indexes,
-      aggregation pipelines, improved error handling, and environment
-      variables for database connection information.
-    </p>
-
-    <p>
-      <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/Enhancement%203" target="_blank">
-        View Enhancement Three
-      </a>
-    </p>
-    <h2>Skills</h2>
-    <p>
-      Software Engineering, Databases, Algorithms, Data Structures,
-      Testing, Security, Python, Java, MongoDB, Dash, JUnit, and GitHub.
-    </p>
-    <h2>Course Outcomes</h2>
-
-    <p>
-      Throughout these enhancements, I demonstrated the five Computer Science
-      program outcomes through communication, software development,
-      algorithms, database development, problem solving, and security.
-    </p>
-    <p>Software Engineering, Databases, Algorithms, Testing, and Security</p>
-    <h2>Professional Self-Assessment</h2>
-    <h2>GitHub Repository</h2>
-
-    <p>
-      <a href="https://github.com/aj35waterman/CS499-Capstone" target="_blank">
-        View My CS 499 GitHub Repository
-      </a>
-    </p>
+    <div class="container">
 
 
-    <hr>
+      <h1>Albert Waterman</h1>
 
-    <p>Albert Waterman - CS 499 Computer Science ePortfolio</p>
+      <p>CS 499 Computer Science Portfolio</p>
 
-  
+
+      <h2>About My Portfolio</h2>
+
+      <p>
+        This portfolio shows the work I completed during CS 499 and demonstrates
+        the skills I developed throughout the Computer Science program at
+        Southern New Hampshire University.
+      </p>
+
+      <p>
+        My enhancements focus on software design and engineering, algorithms
+        and data structures, databases, testing, and security.
+      </p>
+
+
+
+      <h2>Code Review</h2>
+
+      <p>
+        Before completing my enhancements, I reviewed my original projects
+        and explained the changes I planned to make.
+      </p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/-0TocoihMco"
+        title="CS 499 Code Review"
+        allowfullscreen>
+      </iframe>
+
+      <p>
+        <a href="https://www.youtube.com/watch?v=-0TocoihMco" target="_blank">
+          Watch Code Review on YouTube
+        </a>
+      </p>
+
+
+
+      <h2>Artifacts</h2>
+
+
+
+      <!-- ENHANCEMENT ONE -->
+
+      <div class="artifact">
+
+        <h3>Enhancement One: Software Design and Engineering</h3>
+
+        <p><strong>CS 340 Animal Shelter Dashboard</strong></p>
+
+        <p>
+          <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/CS499enhancement1"
+             target="_blank">
+            View Enhancement One Code
+          </a>
+        </p>
+
+
+        <details>
+
+          <summary>Read Full Enhancement One Narrative</summary>
+
+          <div class="narrative">
+
+            <h4>Enhancement One: Software Design and Engineering</h4>
+
+            <p>
+              The artifact I selected is CS 340 Animal Shelter Dashboard.
+              Originally I used Python, Dash, MongoDB, Pandas, Plotly, and Dash
+              Leaflet. The dashboard uses animal shelter data from the Austin
+              Animal Center and helps the user search for animals that could
+              possibly be trained for different types of rescue work. The
+              dashboard allows the user to filter the animal records by water
+              rescue, mountain or wilderness rescue, and disaster or individual
+              tracking. It also displays the records in a table, shows the most
+              common breeds in a chart, and displays the selected animal's
+              location on a map. The original application worked, but almost
+              everything was placed inside the same Jupyter Notebook. The layout,
+              database connection, MongoDB queries, filters, chart, and map were
+              all closely connected. Also, the map was very cluttered, and
+              filtering columns weren't working properly.
+            </p>
+
+            <p>
+              I selected this artifact because it shows several of the skills I
+              have learned throughout SNHU. It combines software development,
+              database access, filtering, user-interface design, charts, and maps
+              into one working application. I also selected it because dashboards
+              are something that connect to my current career and what I may want
+              to do in the future. I currently work with laboratory equipment and
+              technical systems. A dashboard like this could also be used to
+              display equipment status, service history, system errors,
+              maintenance records, or other information that helps employees make
+              decisions. Even though this dashboard is based on animal shelter
+              data, the same general skills can be used in other industries.
+            </p>
+
+            <p>
+              The original project showed that I could create a working
+              application, but it also had areas that needed improvement. Most of
+              the code was inside one notebook, and the dashboard callbacks were
+              directly creating MongoDB queries. This would make the application
+              harder to maintain if more features were added later. For my
+              enhancement, I separated the project into three main parts. The
+              dashboard handles what the user sees and clicks. The service layer
+              handles the rescue filters and prepares the data. The repository
+              layer handles the MongoDB connection and database operations.
+            </p>
+
+            <p>
+              This was one of the main goals from my Module One enhancement plan.
+              I wanted to make the code more organized without changing the
+              original purpose of the application.
+            </p>
+
+            <p>
+              One of the main improvements was creating the animal_repository.py
+              file. This file now handles the MongoDB connection and the create,
+              read, update, and delete operations. The dashboard no longer needs
+              to connect directly to MongoDB. I also added a connection timeout
+              and a ping that checks whether MongoDB is available. This keeps the
+              program from waiting too long if the database is not running.
+            </p>
+
+            <p>
+              I also changed the error handling so it catches MongoDB-related
+              errors instead of using a general except statement for everything.
+              The repository still contains the create, update, and delete
+              methods from the original CRUD class. The dashboard mainly uses the
+              find method because its purpose is to search and display
+              information. I kept the other methods because they were already
+              part of the original project and could be used later if the
+              dashboard is expanded.
+            </p>
+
+            <p>
+              The second major improvement was creating the animal_service.py
+              file. This file contains the rescue filters and prepares the
+              information that is sent to the dashboard. The service checks that
+              the selected rescue filter is valid, builds the correct query, and
+              sends the request to the repository.
+            </p>
+
+            <p>
+              The service also cleans the records before displaying them. For
+              example, if information is missing, the service replaces the
+              missing value with "Unknown" instead of leaving a blank space. It
+              also prepares the table columns, counts the ten most common breeds,
+              gets the selected animal's information for the map, and converts
+              the visible records into CSV format.
+            </p>
+
+            <p>
+              Moving these responsibilities into the service class made the
+              notebook easier to read. The dashboard callbacks no longer include
+              all rescue rules and database queries. Instead, the dashboard can
+              use a simpler line such as:
+            </p>
+
+            <p><strong>records = service.get_animals(filter_type)</strong></p>
+
+            <p>
+              That line sends the selected filter to the service, and the service
+              handles the rest of the process.
+            </p>
+
+            <p>
+              I also made several improvements to the dashboard itself. I added a
+              message that shows how many animal records were found after the
+              user selects a rescue category. If no animals match the filter, the
+              dashboard displays a message instead of only showing an empty
+              table.
+            </p>
+
+            <p>
+              I replaced the original pie chart with a bar chart that shows the
+              ten most common breeds. The pie chart became difficult to read when
+              there were many different breeds.
+            </p>
+
+            <p>
+              I also improved the map. The original map used column numbers to
+              find the animal's latitude, longitude, breed, and name. This could
+              cause problems if the order of the table columns changed. The
+              enhanced version uses field names such as location_lat,
+              location_long, breed, and name. This makes the code easier to
+              understand and less likely to break.
+            </p>
+
+            <p>
+              Another feature I added was the Export Current Results button. The
+              user can apply a rescue filter or filter the table and then export
+              the records currently being displayed into a CSV file. This makes
+              the dashboard more useful because the information can be saved or
+              shared with someone else.
+            </p>
+
+            <p>
+              I also removed the hard-coded MongoDB username and password from
+              the notebook. The enhanced application loads its connection
+              settings from an environment file. This keeps the connection
+              information separate from the main code and prevents private
+              information from being uploaded with the notebook.
+            </p>
+
+            <p>
+              I made progress toward the first course outcome by improving how
+              users can search, view, compare, and export the animal information.
+              The table, filters, chart, map, and CSV export give the user
+              different ways to understand the data and use it to their needs.
+            </p>
+
+            <p>
+              I also addressed the second course outcome through the organization
+              of my code, comments, and code review. Separating the application
+              into different files makes it easier for another person to
+              understand where each part of the program is located.
+            </p>
+
+            <p>
+              I addressed the fourth course outcome by using Python, Dash,
+              MongoDB, Pandas, Plotly, Dash Leaflet, Jupyter Notebook,
+              PowerShell, and environment variables to improve a working
+              application. I did not start over with a new project. I used the
+              tools I have learned to make the original application better.
+            </p>
+
+            <p>
+              I also made progress toward the fifth course outcome by removing
+              hard-coded credentials, validating the rescue-filter selection,
+              limiting the fields returned from MongoDB, and improving the error
+              handling.
+            </p>
+
+            <p>
+              My original dashboard completed the required tasks, but too much
+              of the code was placed together inside one notebook. Before the
+              enhancement, I mostly focused on getting the correct result, but
+              this process made me think more about how easy the project would be
+              for another developer to understand.
+            </p>
+
+            <p>
+              At first, splitting the code into more files was confusing because
+              I was used to having everything in one place, but once I understood
+              how the dashboard, service, and repository worked together, the
+              structure made it way more organized and clear.
+            </p>
+
+            <p>
+              I learned that the repository should handle MongoDB, the service
+              should handle the filters and data preparation, and the dashboard
+              should handle the layout and callbacks.
+            </p>
+
+            <p>
+              One of the biggest challenges was making sure the table, chart,
+              map, record count, and CSV export all continued working with the
+              same filtered data. I also improved the error handling so the
+              program could tell the difference between no records being found
+              and an actual database problem.
+            </p>
+
+            <p>
+              This enhancement helped me move from only thinking about whether
+              the program works to also thinking about how it is organized,
+              maintained, and improved over time.
+            </p>
+
+            <h4>References</h4>
+
+            <p>
+              Plotly.express.bar — 6.8.0 documentation.
+            </p>
+
+            <p>
+              mongo_client – Tools for connecting to MongoDB - PyMongo 4.17.0
+              documentation.
+            </p>
+
+            <p>
+              Manually raising (throwing) an exception in Python - Stack
+              Overflow.
+            </p>
+
+          </div>
+
+        </details>
+
+      </div>
+
+
+
+      <!-- ENHANCEMENT TWO -->
+
+      <div class="artifact">
+
+        <h3>Enhancement Two: Algorithms and Data Structures</h3>
+
+        <p><strong>CS 320 Task Scheduler</strong></p>
+
+        <p>
+          <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/Enhancement%202"
+             target="_blank">
+            View Enhancement Two Code
+          </a>
+        </p>
+
+
+        <details>
+
+          <summary>Read Full Enhancement Two Narrative</summary>
+
+          <div class="narrative">
+
+            <h4>Enhancement Two: Algorithms and Data Structures</h4>
+
+            <p>
+              The artifact I selected for the algorithms and data structures
+              category is my Task Service project from CS 320. I created the
+              original project earlier in the Computer Science program using Java
+              and JUnit testing.
+            </p>
+
+            <p>
+              The original project included a Task class, TaskService class,
+              TaskTest class, and TaskServiceTest class. The Task class stored a
+              task ID, name, and description. It also validated the length and
+              null requirements for each value. The task ID could not be changed
+              after the task was created, but the name and description could be
+              updated.
+            </p>
+
+            <p>
+              The original TaskService used a HashMap to store tasks by their
+              task IDs. It allowed users to add, delete, retrieve, and update
+              tasks. The original application was great for basic task
+              management, but it did not determine which task should be completed
+              first or handle dependencies between tasks.
+            </p>
+
+            <p>
+              I selected this artifact because it gave me a good starting point
+              for showing my growth in algorithms and data structures. The
+              original application already used a HashMap, object-oriented
+              programming, input validation, and JUnit tests. It was still mainly
+              a basic create, read, update, and delete application.
+            </p>
+
+            <p>
+              I wanted to improve it into something that could solve more
+              realistic scheduling issues. My original enhancement plan was to
+              keep the HashMap for task lookup while adding task priorities, due
+              dates, a dependency graph, a PriorityQueue, topological sorting,
+              and cycle detection. I also planned to add more JUnit tests to
+              verify the scheduling system.
+            </p>
+
+            <p>
+              The first improvement was adding a priority and due date to the
+              Task class. Priority values range from 1 through 5, with 1 being
+              the highest priority. I also kept the original three-value
+              constructor so the original tests and code would still work.
+            </p>
+
+            <p>
+              When the original constructor is used, the task receives a default
+              priority of 3 and a due date placed far into the future. The
+              priority and due-date fields allow the scheduler to compare tasks.
+              When multiple tasks are available, the task with the lower priority
+              number is selected first. If two available tasks have the same
+              priority, the task with the earlier due date is selected. The task
+              ID is used as the final comparison when the priority and due date
+              are the same.
+            </p>
+
+            <p>
+              The second improvement was adding a dependency graph. A dependency
+              means that one task must be completed before another task can
+              start. For example, a repair task may depend on inspecting the
+              equipment, ordering parts, gathering tools, and backing up system
+              settings.
+            </p>
+
+            <p>
+              I represented the dependency graph using a HashMap that connects
+              each task ID to a Set of required task IDs. The set prevents the
+              same dependency from being added more than once. This allows the
+              application to store multiple requirements for each task.
+            </p>
+
+            <p>
+              I planned this very similar to how my job operates currently and am
+              very impressed with how it turned out.
+            </p>
+
+            <p>
+              The main algorithmic improvement was the buildTaskSchedule()
+              method. This method uses the topological sort algorithm. The
+              algorithm creates a valid order by counting how many unfinished
+              dependencies each task has.
+            </p>
+
+            <p>
+              One important part of the enhancement is that dependencies come
+              before priority. A priority 1 task cannot be scheduled if it still
+              depends on another task. This keeps the schedule valid even when a
+              task has a higher priority than one of the tasks it depends on.
+            </p>
+
+            <p>
+              I used four tasks in the demo program: ordering parts, inspecting
+              the system, repairing the system, and verifying the repair. The
+              repair task depends on both the parts and inspection tasks, so it
+              cannot begin until both are completed. The verification task
+              depends on the repair task, so it must be completed last.
+            </p>
+
+            <p>
+              This shows how the application can organize connected tasks while
+              still considering priority and due dates.
+            </p>
+
+            <p>
+              The scheduler also detects dependency cycles. A cycle happens when
+              tasks depend on each other in a way that makes it impossible for
+              the schedule to continue. For example, the repair task cannot
+              depend on the verification task while the verification task also
+              depends on the repair task.
+            </p>
+
+            <p>
+              After the scheduling process finishes, the program compares the
+              number of scheduled tasks with the total number of tasks. If the
+              numbers do not match, the program throws an exception instead of
+              returning an invalid schedule.
+            </p>
+
+            <p>
+              This enhancement also demonstrates how I used several data
+              structures together. The HashMap stores each task by its ID and
+              provides an average lookup time of O(1). Sets store the task
+              dependencies and prevent the same dependency from being added more
+              than once.
+            </p>
+
+            <p>
+              Another map keeps track of the number of unfinished dependencies
+              for each task. The PriorityQueue chooses the best available task,
+              and an ArrayList stores the final task schedule.
+            </p>
+
+            <p>
+              The topological sort goes through every task and dependency
+              relationship. The estimated time complexity is O(V log V + E),
+              where V represents the number of tasks and E represents the number
+              of dependency connections. The graph and supporting collections
+              use O(V + E) space.
+            </p>
+
+            <p>
+              This requires more memory and processing than the original
+              application, but the trade-off is that the program can now create
+              a valid schedule that follows priorities, due dates, and dependency
+              requirements.
+            </p>
+
+            <p>
+              The main outcome it connects to is Course Outcome 3 because I used
+              algorithms and data structures to solve the scheduling problem. I
+              also had to think about the trade-offs involved with the different
+              choices I made.
+            </p>
+
+            <p>
+              I used different data structures because each one had a different
+              purpose. The HashMap makes it easy to find a task by its ID. The
+              dependency graph shows which tasks have to be completed before
+              another task can begin. The incoming dependency map keeps track of
+              how many requirements each task still has. The PriorityQueue then
+              chooses which available task should come next based on priority and
+              due date.
+            </p>
+
+            <p>
+              I also compared using a normal queue with using a priority queue. A
+              normal queue could still create a valid order, but it would not
+              consider which task is more important or due sooner. The priority
+              queue takes a little more processing, but it creates a better
+              schedule.
+            </p>
+
+            <p>
+              The four-task example shows this clearly. The parts and inspection
+              tasks have to be completed before the repair task can begin. The
+              verification task has to wait until the repair is finished. Even
+              though the repair task has a high priority, the program will not
+              schedule it before the tasks it depends on.
+            </p>
+
+            <p>
+              This enhancement also supports Course Outcome 4 because I used
+              Java, JUnit, Eclipse, object-oriented programming, and Java
+              collection classes to create a working solution. The new version
+              has more value than the original because it can now handle
+              priorities, due dates, dependencies, and invalid schedules.
+            </p>
+
+            <p>
+              Course Outcome 2 is also covered through my code comments, test
+              names, screenshots, code review, and this narrative. I explained
+              what I changed and why I made those choices.
+            </p>
+
+            <p>
+              One of the main things I learned was that priority alone does not
+              create a valid schedule. I thought all the tasks could just go into
+              one priority queue and be completed based on importance. The
+              problem with that is a high-priority task could be scheduled before
+              the work it depends on.
+            </p>
+
+            <p>
+              I had to separate a task being important from a task being ready.
+              The dependency graph decides when a task is ready. The priority
+              queue only decides which ready task should come next.
+            </p>
+
+            <p>
+              The four-task example helped me understand this idea. The parts and
+              inspection tasks are ready first because they do not depend on
+              anything else. The repair task only becomes ready after both of
+              those tasks are completed. The verification task only becomes ready
+              after the repair is done.
+            </p>
+
+            <p>
+              One challenge was understanding the direction of the dependency
+              graph. When a task is completed, the program has to find the tasks
+              that were waiting on it and lower their dependency counts.
+            </p>
+
+            <p>
+              For example, finishing the parts task lowers one dependency for the
+              repair task. Finishing the inspection task lowers the other
+              dependency, which then allows the repair task to be added to the
+              priority queue.
+            </p>
+
+            <p>
+              Deleting tasks also took more thought than it did in the original
+              application. Removing a task from the main HashMap was not enough
+              because the task ID could still be stored as a dependency for
+              another task. I updated the delete method so it removes the task
+              from the main map, removes its dependency information, and removes
+              its ID from the other dependency sets.
+            </p>
+
+            <p>
+              Another challenge was keeping the original three-argument
+              constructor while adding the new constructor with priority and due
+              date. Keeping both constructors allowed the original code and tests
+              to keep working while also supporting the new scheduling features.
+              This showed me how to improve an existing program without breaking
+              everything that already worked.
+            </p>
+
+            <p>
+              Testing was also important during this enhancement. I kept the
+              original tests for creating, updating, deleting, and validating
+              tasks. I added more tests for priority order, due-date order,
+              dependencies, missing tasks, self-dependencies, deleting dependency
+              references, and cycle detection.
+            </p>
+
+            <p>
+              I ran all of the tests in Eclipse, and all 39 tests passed with
+              zero errors and zero failures. This helped confirm that the new
+              scheduling features worked and that the original features still
+              worked too.
+            </p>
+
+            <p>
+              This enhancement helped me understand how several data structures
+              can work together to solve one problem. The original application
+              mainly used a HashMap for basic task storage. The enhanced version
+              uses a HashMap, sets, a dependency graph, incoming dependency
+              counts, a priority queue, and an ArrayList.
+            </p>
+
+            <p>
+              Even though the demonstration only uses four tasks, it still
+              clearly shows how the scheduler works. The parts and inspection
+              tasks must be completed before the repair, and the repair must be
+              completed before verification.
+            </p>
+
+            <h4>References</h4>
+
+            <p>
+              Lexicographically Smallest Topological Ordering - GeeksforGeeks.
+            </p>
+
+            <p>
+              Test Classes and Methods - JUnit User Guide.
+            </p>
+
+            <p>
+              PriorityQueue - Java Documentation.
+            </p>
+
+            <p>
+              HashMap - Java Documentation.
+            </p>
+
+          </div>
+
+        </details>
+
+      </div>
+
+
+
+      <!-- ENHANCEMENT THREE -->
+
+      <div class="artifact">
+
+        <h3>Enhancement Three: Databases</h3>
+
+        <p><strong>CS 340 Animal Shelter Dashboard</strong></p>
+
+        <p>
+          <a href="https://github.com/aj35waterman/CS499-Capstone/tree/main/Enhancement%203"
+             target="_blank">
+            View Enhancement Three Code
+          </a>
+        </p>
+
+
+        <details>
+
+          <summary>Read Full Enhancement Three Narrative</summary>
+
+          <div class="narrative">
+
+            <h4>Enhancement Three: Databases</h4>
+
+            <p>
+              For my database enhancement, I used my CS 340 Animal Shelter
+              Dashboard. This artifact was originally created using Python, Dash,
+              and MongoDB with data from the Austin Animal Center.
+            </p>
+
+            <p>
+              The dashboard already allowed users to view animal records, filter
+              animals by rescue category, see breed information in a chart, and
+              view animal locations on a map. I selected this artifact again
+              because MongoDB was already a major part of the project, which gave
+              me a good starting point for improving the way the application
+              stores, retrieves, validates, and manages data.
+            </p>
+
+            <p>
+              The main goal of this enhancement was to improve the database
+              features without changing the overall style of my original
+              dashboard.
+            </p>
+
+            <p>
+              I added a database management section that allows the user to add,
+              update, and delete animal records directly from the dashboard. When
+              a table row is selected, the animal information is loaded into the
+              input fields so the user can update or delete that specific record.
+            </p>
+
+            <p>
+              I also added input validation in the service layer. The program
+              removes extra spaces, checks required values, converts number
+              fields, and prevents duplicate animal IDs from being added.
+            </p>
+
+            <p>
+              These changes make the dashboard more useful because users can now
+              manage records instead of only viewing them. The service layer
+              handles the validation and application logic, while the repository
+              layer performs the MongoDB operations.
+            </p>
+
+            <p>
+              I also improved the database security by removing the MongoDB
+              connection information from the main source code. The application
+              now loads the MongoDB URI, database name, and collection name from
+              an environment file.
+            </p>
+
+            <p>
+              This makes the project safer because connection information does
+              not have to be hard-coded throughout the application. The
+              repository also uses error handling so the dashboard can display a
+              simple message instead of showing detailed database information to
+              the user.
+            </p>
+
+            <p>
+              Another part of the enhancement was adding MongoDB schema
+              validation. The validation requires fields such as the animal ID,
+              animal type, breed, and sex upon outcome.
+            </p>
+
+            <p>
+              It also checks that the age and location fields use number data
+              types. This helps prevent incomplete or incorrect information from
+              being added to the database.
+            </p>
+
+            <p>
+              I used a moderate validation level so the rules apply to new
+              records and future updates without forcing me to change every older
+              record already stored in the collection.
+            </p>
+
+            <p>
+              I added indexes for fields that are commonly used when searching
+              and filtering the animal records. These fields include animal type,
+              breed, outcome type, and sex upon outcome.
+            </p>
+
+            <p>
+              Before creating an index, the program checks the indexes that
+              already exist so it does not attempt to create duplicates. The
+              separate database setup file runs the index and schema validation
+              methods and confirms whether the setup was completed.
+            </p>
+
+            <p>
+              This improves the project because indexes can help MongoDB find
+              matching records more efficiently as the amount of data grows.
+            </p>
+
+            <p>
+              I also added an aggregation pipeline that allows MongoDB to create
+              a summary of the most common breeds. The pipeline uses $match to
+              apply the selected rescue filter, $group to count each breed,
+              $sort to place the highest totals first, and $limit to return the
+              ten most common breeds.
+            </p>
+
+            <p>
+              This allows more of the data processing to happen inside MongoDB
+              instead of retrieving every record and completing all calculations
+              inside Python.
+            </p>
+
+            <p>
+              One challenge I faced was creating the indexes because some indexes
+              already existed in MongoDB under different names. My original code
+              tried to create the same index again, which caused an issue when
+              trying to run.
+            </p>
+
+            <p>
+              I resolved this by retrieving the existing index information and
+              checking which fields already had indexes before creating new ones.
+            </p>
+
+            <p>
+              Another challenge was adding the database management controls
+              without making the dashboard feel like a completely different
+              project. I wanted the enhancement to still look like code I had
+              originally written.
+            </p>
+
+            <p>
+              I kept the same basic layout, comments, naming style, table, chart,
+              map, and filter controls. I placed the database section between the
+              rescue filters and the table so it was easy to find while still
+              fitting into the existing dashboard.
+            </p>
+
+            <p>
+              I also added a refresh value so the table automatically reloads
+              after a record is added, updated, or deleted.
+            </p>
+
+            <p>
+              This enhancement supports Course Outcome 1 because the improved
+              filtering, reporting, and database management features help users
+              work with animal information and make decisions.
+            </p>
+
+            <p>
+              It supports Course Outcome 3 because I evaluated different database
+              techniques, including indexes, aggregation, validation, and
+              processing data in MongoDB instead of only in Python.
+            </p>
+
+            <p>
+              It supports Course Outcome 4 because I used Python, Dash, MongoDB,
+              environment variables, aggregation pipelines, and database
+              management methods to create a working solution.
+            </p>
+
+            <p>
+              It also supports Course Outcome 5 because I removed hard-coded
+              connection settings, validated user input, applied database
+              validation rules, and used error handling to protect database
+              information.
+            </p>
+
+            <p>
+              I improved the artifact by making it more complete and professional
+              while still keeping the original design. The first version mainly
+              retrieved and displayed records.
+            </p>
+
+            <p>
+              The enhanced version now supports creating, reading, updating, and
+              deleting records, safer database access, schema validation,
+              indexing, and database aggregation.
+            </p>
+
+            <p>
+              This project helped me better understand how the dashboard, service
+              layer, repository layer, and MongoDB database work together as one
+              application.
+            </p>
+
+            <h4>References</h4>
+
+            <p>
+              Aggregation Stages - MongoDB Documentation.
+            </p>
+
+            <p>
+              Create Indexes to Support Your Queries - MongoDB Documentation.
+            </p>
+
+            <p>
+              Specify Validation Level for Existing Documents - MongoDB
+              Documentation.
+            </p>
+
+          </div>
+
+        </details>
+
+      </div>
+
+
+
+      <h2>Skills</h2>
+
+      <p>
+        Software Engineering, Databases, Algorithms, Data Structures,
+        Testing, Security, Python, Java, MongoDB, Dash, JUnit, and GitHub.
+      </p>
+
+
+
+      <h2>Course Outcomes</h2>
+
+      <p>
+        Throughout these enhancements, I demonstrated the five Computer Science
+        program outcomes through communication, software development,
+        algorithms, database development, problem solving, and security.
+      </p>
+
+
+
+      <h2>Professional Self-Assessment</h2>
+
+      <p>
+        My professional self-assessment will reflect on my experience throughout
+        the Computer Science program, the skills I developed, and how my
+        coursework has prepared me for my future career.
+      </p>
+
+
+
+      <h2>GitHub Repository</h2>
+
+      <p>
+        <a href="https://github.com/aj35waterman/CS499-Capstone"
+           target="_blank">
+          View My CS 499 GitHub Repository
+        </a>
+      </p>
+
+
+
+      <div class="footer">
+
+        <p>Albert Waterman - CS 499 Computer Science ePortfolio</p>
+
+      </div>
+
+
+    </div>
+
   </body>
+
 </html>
